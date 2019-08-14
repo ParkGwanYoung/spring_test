@@ -15,7 +15,7 @@
     <script>
         $(function () {
             $("button").click(function () {
-                $.get("spring-test-xexzj.run.goorm.io/ws/organization", function (data) {
+                $.get("https://spring-test-xexzj.run.goorm.io/ws/organization", function (data) {
                     $.map(data,function(value,key){
                         $("#demo").text(value + " : " + key);
                     })
